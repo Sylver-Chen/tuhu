@@ -17,7 +17,7 @@ class TuhuItem(scrapy.Item):
     shophours = scrapy.Field()
     shoptype = scrapy.Field()
     paymenttype = scrapy.Field()
-    phone = scrapy.Field()
+    tel = scrapy.Field()
     addr = scrapy.Field()
     tireservice_yes = scrapy.Field()
     tireservice_no = scrapy.Field()
